@@ -26,10 +26,10 @@ thiserror = "1.0"
 tracing = "0.1"
 
 [dependencies.revm-primitives]
-git = "https://github.com/scroll-tech/revm"
-branch = "scroll-evm-executor/v42"
+git = "https://github.com/morph-l2/revm"
+branch = "morph-update"
 default-features = false
-features = ["scroll", "scroll-poseidon-codehash"]
+features = ["morph", "morph-poseidon-codehash"]
 optional = true
 
 [dev-dependencies]
